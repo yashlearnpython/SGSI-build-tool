@@ -21,5 +21,5 @@ for APEX in $APEXES; do
     $EXT4EXTRACT "$APEXDIR/$APEXNAME/apex_payload.img" -D "$APEXDIR/$APEXNAME" >> "$TMPDIR"/zip.log
     rm -rf "$APEXDIR/$APEXNAME/apex_payload.img"
     rm -rf "$APEXDIR/$APEXNAME/lost+found"
-    #rm -rf "$APEXDIR/$APEX"
+    rm -rf "$APEXDIR/$APEX"
 done
